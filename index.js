@@ -1,4 +1,5 @@
 'use strict';
+
 module.exports = date => {
 	const offset = (date || new Date()).getTimezoneOffset();
 	const absOffset = Math.abs(offset);

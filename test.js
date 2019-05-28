@@ -1,7 +1,7 @@
 import test from 'ava';
-import m from './';
+import timeZone from '.';
 
-test(t => {
-	console.log('Time zone:', m());
-	t.regex(m(), /^[+-][\d:]+$/);
+test('main', t => {
+	console.log('Time zone:', timeZone());
+	t.regex(timeZone(), /^[+-][\d:]+$/);
 });

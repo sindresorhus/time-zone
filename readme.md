@@ -6,7 +6,7 @@
 ## Install
 
 ```
-$ npm install --save time-zone
+$ npm install time-zone
 ```
 
 
@@ -15,15 +15,15 @@ $ npm install --save time-zone
 ```js
 const timeZone = require('time-zone');
 
-// current time zone (in Norway)
+// Current time zone (in Norway)
 timeZone();
 //=> '+2'
 
-// time zone in February (in Norway)
+// Time zone in February (in Norway)
 timeZone(new Date(2016, 1, 1));
 //=> '+1'
 
-// current time zone (in French Polynesia)
+// Current time zone (in French Polynesia)
 timeZone();
 //=> '-9:30'
 ```
@@ -39,8 +39,3 @@ Type: `Date`<br>
 Default: `new Date()`
 
 Custom date.
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
