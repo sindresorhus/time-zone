@@ -2,18 +2,16 @@
 
 > Pretty [time zone](https://en.wikipedia.org/wiki/Time_zone): `+2` or `-9:30`
 
-
 ## Install
 
 ```
 $ npm install time-zone
 ```
 
-
 ## Usage
 
 ```js
-const timeZone = require('time-zone');
+import timeZone from 'time-zone';
 
 // Current time zone (in Norway)
 timeZone();
@@ -28,14 +26,13 @@ timeZone();
 //=> '-9:30'
 ```
 
-
 ## API
 
-### timeZone([date])
+### timeZone(date?)
 
 #### date
 
-Type: `Date`<br>
+Type: `Date`\
 Default: `new Date()`
 
 Custom date.

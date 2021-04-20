@@ -4,13 +4,16 @@
 	"description": "Pretty time zone: `+2` or `-9:30`",
 	"license": "MIT",
 	"repository": "sindresorhus/time-zone",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
+	"exports": "./index.js",
 	"engines": {
-		"node": ">=8"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -29,7 +32,7 @@
 		"zone"
 	],
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"xo": "^0.24.0"
+		"ava": "^3.15.0",
+		"xo": "^0.38.2"
 	}
 }
