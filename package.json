@@ -1,6 +1,6 @@
 {
 	"name": "time-zone",
-	"version": "1.0.0",
+	"version": "2.0.0",
 	"description": "Pretty time zone: `+2` or `-9:30`",
 	"license": "MIT",
 	"repository": "sindresorhus/time-zone",
